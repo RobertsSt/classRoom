@@ -34,6 +34,7 @@ class ClassRoom
   end
 end
 
+puts "Sie skolnieki ir palaidiigi"
 person1 = Student.new("Roberts","Steins","rs17055","420")
 person2 = Student.new("Ingus","Skaistulitis","IS420","32")
 classroom = ClassRoom.new("Audzinasana")
@@ -43,3 +44,4 @@ classroom.addStudent(person2)
 
 puts "Ir #{classroom.studentCount()} studenti klasee #{classroom.className()}"
 classroom.listStudents()
+
